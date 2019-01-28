@@ -17,6 +17,7 @@ public class File {
 
     /**
      * Creates a new File instance.
+     *
      * @param path the source file path.
      */
     public File(Path path) {
@@ -28,9 +29,7 @@ public class File {
      * Characters from the file are decoded into int.
      *
      * @return the characters from the file as a {@code IntStream}.
-     *
-     * @throws IOException
-     *         if an I/O error occurs opening the file
+     * @throws IOException if an I/O error occurs opening the file.
      */
     public IntStream getCharacterStream() throws IOException {
         return Files.lines(path, StandardCharsets.UTF_8)
