@@ -3,11 +3,9 @@ Java Brainfuck Interpreter
 
 ### What is BrainFuck?
 
-Brainfuck is a turing-complete minimal programming language. It designed to
- implement easily on any programming language.
+Brainfuck is a turing-complete minimal programming language. It is designed to be easily implemented by any programming language.
 
-Brainfuck language consist with a simple machine model, a pointer and 8
-command (character).
+Brainfuck language consist of a simple machine model, a pointer and 8 commands.
 
 More information:
 <http://en.wikipedia.org/wiki/Brainfuck>
