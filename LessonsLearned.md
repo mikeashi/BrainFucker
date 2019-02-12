@@ -29,3 +29,5 @@ I started working on this project to get a better understanding of the working m
 + Create the ASTNode class which will represent the Abstract Syntax Tree Node.
 ### 12.02.2019
 + Create the IO interfaces and default IO classes.
++ Create the Interpreter class.
+-----------------------------------------------------------------------
